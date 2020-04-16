@@ -4,7 +4,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/vernee/apollo_lite/device.mk)
+$(call inherit-product, device/vernee/apollo_x/device.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := apollo_x

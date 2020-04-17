@@ -93,5 +93,7 @@ TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 # SELinux
 BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
 
+WITHOUT_CHECK_API := true
+
 # Seccomp filter
 BOARD_SECCOMP_POLICY := $(LOCAL_PATH)/seccomp
